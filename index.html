@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Список задач</h1>
+  <ol class="todo-list">
+    <li class="todo-list-item">
+      <label>
+        <input class="todo-list-input" type="checkbox"><span>Быть счастливым</span>
+      </label>
+    </li>
+    <li class="todo-list-item">
+      <label>
+        <input class="todo-list-input" type="checkbox"><span>Свалить из страны</span>
+      </label>
+    </li>
+  </ol>
+  <p class="empty-tasks hidden">Все задачи выполнены!</p>
+  <form class="todo-form">
+    <label class="todo-label" for="todo-input">Добавьте задачу</label>
+    <input type="text" class="todo-input" id="todo-input" required>
+    <button type="submit">Добавить задачу</button>
+  </form>
+  <script defer src="main.js"></script>
+</body>
+</html>
